@@ -2,6 +2,6 @@ def checkAge(age):
     if age < 18:
         return 'You are minor'
     else:
-        return 'You are an adult'
+        return 'Adult'
 
-print(checkAge(19))
+print(checkAge(17))
