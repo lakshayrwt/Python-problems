@@ -1,1 +1,1 @@
-print('hello,all the beautiful people in the world')
+print('hello,all the beautiful people in the universe')
