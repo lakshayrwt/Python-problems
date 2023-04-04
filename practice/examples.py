@@ -5,3 +5,6 @@ print(7*6)
 Greeting = "Namaste"
 Name = input("Enter your name:")
 print(Greeting + ' ' + Name)
+print("")
+splitscreen =("This string\nhas been\nsplit over\nmultiple times")
+print(splitscreen)
