@@ -28,3 +28,12 @@ print(Line6)
 print()
 Table =("Number 1\tThe Larch\nNumber 2\tThe Horse Chestnut")
 print(Table)
+print()
+bun_price = 2.40
+money = 15
+print(money//bun_price)
+print()
+a = 12
+b = 3
+print(a + b / 3 - 4 * 12)
+print(((a + b )/ 3 - 4 ) * 12)
