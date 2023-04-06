@@ -105,3 +105,20 @@ print(separators)
 
 values = "".join(char if char not in separators else " " for char in number).split()
 print([int(val)for val in values])
+
+print()
+         #0123456789012345678901234567
+letters = "abcdefghijklmnopqrstuvwxyz"
+backwards = letters[25::-11]
+print(backwards)
+
+print()
+
+QPO = letters[16:13:-1]
+EDCBA = letters[4::-1]
+REVERSO = letters[26:17:-1]
+print()
+
+print(QPO)
+print(EDCBA)
+print(REVERSO)
