@@ -67,3 +67,41 @@ print(parrot[6-14])
 print(parrot[8-14])
 
 print()
+
+print(parrot[0:6])
+
+print()
+
+print(parrot[3:5])
+
+print()
+
+print(parrot[10:14])
+
+print(parrot[:])
+
+print()
+        # 0123456789012345678901234567
+#letters = "abcdefghijklmnopqrstuvwxyz"
+
+#print(letters[12:13] + letters[24:25]) + (letters) + (letters[13:14] + (letters[0:1]) + letters[12:13] + letters[4:5])  + (letters)+ (letters[8:9] + letters[18:19]) + (letters) + (letters[11:12] + letters[0:1] + letters[10:11] + letters[18:19] + letters[7:8] + letters[0:1] + letters[24:25]) + (letters) + (letters[17:18] + letters[0:1] + letters[22:23] + letters[0:1] + letters[19:20])
+
+print(parrot[-4:-2])
+print(parrot[-4:12])
+print(parrot[-14:-8])
+
+print()
+
+print(parrot[0:6:2])
+print(parrot[0:6:3])
+
+print()
+
+number ="9,223,372,036,854,775,807"
+print(number[1::4])
+
+separators = number[1::4]
+print(separators)
+
+values = "".join(char if char not in separators else " " for char in number).split()
+print([int(val)for val in values])
