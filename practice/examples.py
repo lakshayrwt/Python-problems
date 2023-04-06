@@ -233,6 +233,5 @@ print(data[1:5])
 
 flower = "blue violet"
 print('blue'in flower)
-=======
-print([int(val)for val in values])
+
 
